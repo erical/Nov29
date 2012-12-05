@@ -18,7 +18,7 @@
 	NSBundle *bundle = [NSBundle mainBundle];
 	NSLog(@"bundle.bundelPath == \"%@\"", bundle.bundlePath);
 
-	NSString *filename = [bundle pathForResource: @"musette" ofType: @"mp3"];
+	NSString *filename = [bundle pathForResource: @"19227" ofType: @"mp3"];
 	NSLog(@"filename == \"%@\"", filename);
 
 	NSURL *url = [NSURL fileURLWithPath: filename isDirectory: NO];
